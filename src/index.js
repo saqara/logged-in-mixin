@@ -19,7 +19,7 @@ export default function LoggedInMixin (methodOptions) {
   const originalRun = options.run
 
   options.run = function permissionsMixin (...cbArgs) {
-    if (this.userId) {
+    if (this.userId || this.isTrusted === true) {
       return originalRun.call(this, ...cbArgs)
     }
 
