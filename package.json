@@ -1,7 +1,9 @@
 {
   "name": "logged-in-mixin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A logged in mixin for validated-query",
+  "repository": "github:go-aos/logged-in-mixin",
+  "bugs": "https://github.com/go-aos/logged-in-mixin/issues",
   "main": "lib/logged-in-mixin.js",
   "module": "es/logged-in-mixin.js",
   "files": [
@@ -29,18 +31,11 @@
     "mixin",
     "graphql"
   ],
-  "repository": {
-    "type": "git",
-    "url": "github.com/go-aos/logged-in-mixin"
-  },
   "authors": [
     "Stephane Barale <stephane.barale@go-aos.io> (https://github.com/C0r3y8)",
     "AOS"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/go-aos/logged-in-mixin/issues"
-  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
